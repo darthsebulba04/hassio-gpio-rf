@@ -3,6 +3,7 @@
 Reads radio frequency signal data off of a Raspberry Pi GPIO pin.
 
 ![GPIO pin layout][GPIO]
+
 ![GPIO RF boards][GPIO-RF]
 
 ![Supports armv7 Architecture][armv7-shield]
