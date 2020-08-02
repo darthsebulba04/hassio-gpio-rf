@@ -1,14 +1,21 @@
 # Home Assistant Add-on: GPIO RF Reader
 
-Reads radio frequency signal data off of a Raspberry Pi GPIO pin.
+Reads radio frequency signal codes off of a Raspberry Pi GPIO pin.
 
-![GPIO pin layout][GPIO]
-![GPIO RF boards][GPIO-RF]
+![GPIO pin layout][gpio-pins]
 
 ![Supports armv7 Architecture][armv7-shield]
 
-This add-on provides a simple way to read the radio frequency data from a GPIO pin of a Raspberry Pi wired with the correct hardware.
+This add-on provides a simple way to read the radio frequency codes from a GPIO pin of a Raspberry Pi wired with generic 433/315MHz capable modules.
 
-[GPIO-RF]: https://warehouse-camo.ingress.cmh1.psfhosted.org/b2976728fe9b4ef34ea95e9a9f50453ab9d67e4b/687474703a2f2f692e696d6775722e636f6d2f764738395550392e6a7067
-[GPIO]: https://www.raspberrypi.org/documentation/usage/gpio/images/GPIO-Pinout-Diagram-2.png
+![RF hardware][rf-hardware]
+
+Uses the Python library [rpi-rf] and script rpi-rf_receive .  More details about wiring and hardware can be found on the [rpi-rf] site.
+
+This add-on has been tested with a RPi 4b running [Home Assistant] and will probably work with a 3/3b/3+ .
+
 [armv7-shield]: https://img.shields.io/badge/armv7-yes-green.svg
+[rpi-rf]: https://pypi.org/project/rpi-rf/
+[gpio-pins]: /GPIO.png
+[rf-hardware]: /rf-boards.png
+[Home Assistant]: https://www.home-assistant.io
