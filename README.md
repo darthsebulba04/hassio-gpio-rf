@@ -16,6 +16,6 @@ This add-on has been tested with a RPi 4b running [Home Assistant] and will prob
 
 [armv7-shield]: https://img.shields.io/badge/armv7-yes-green.svg
 [rpi-rf]: https://pypi.org/project/rpi-rf/
-[gpio-pins]: /GPIO.png
-[rf-hardware]: /rf-boards.png
+[gpio-pins]: https://github.com/darthsebulba04/hassio-gpio-rf/raw/master/GPIO.png
+[rf-hardware]: https://github.com/darthsebulba04/hassio-gpio-rf/raw/master/rf-boards.png
 [Home Assistant]: https://www.home-assistant.io
