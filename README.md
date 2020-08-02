@@ -17,4 +17,4 @@ This has been tested with a RPi 4b running Home Assistant and will probably work
 [armv7-shield]: https://img.shields.io/badge/armv7-yes-green.svg
 [rpi-rf]: https://pypi.org/project/rpi-rf/
 [gpio-pins]: /GPIO.png
-[rf-hardware]: /RF.png
+[rf-hardware]: /rf-boards.png
