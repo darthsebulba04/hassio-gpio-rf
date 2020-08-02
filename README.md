@@ -12,9 +12,10 @@ This add-on provides a simple way to read the radio frequency codes from a GPIO 
 
 Uses the Python library [rpi-rf] and script rpi-rf_receive .  More details about wiring and hardware can be found on the [rpi-rf] site.
 
-This add-on has been tested with a RPi 4b running Home Assistant and will probably work with a 3/3b/3+ .
+This add-on has been tested with a RPi 4b running [Home Assistant] and will probably work with a 3/3b/3+ .
 
 [armv7-shield]: https://img.shields.io/badge/armv7-yes-green.svg
 [rpi-rf]: https://pypi.org/project/rpi-rf/
 [gpio-pins]: /GPIO.png
 [rf-hardware]: /rf-boards.png
+[Home Assistant]: https://www.home-assistant.io
